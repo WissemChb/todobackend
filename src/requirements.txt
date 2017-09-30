@@ -1,3 +1,0 @@
-# install requirement packages from setup.py for deployement needs
-.
-
