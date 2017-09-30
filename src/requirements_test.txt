@@ -1,0 +1,2 @@
+#Install extras dependency from extras_require in setup.py
+-e .[test]

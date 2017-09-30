@@ -1,0 +1,6 @@
+FROM centos:latest
+
+MAINTAINER BEN CHAABEN Wissem <benchaaben.wissem@gmail.com>
+
+#Copy configuration file
+COPY docker/release/todobackend.conf /etc/nginx/conf.d/todobackend.conf
