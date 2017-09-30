@@ -29,8 +29,8 @@ test:
   command: --reporter mocha-jenkins-reporter
 
 nginx:
-  build: .
-  dockerfile:  Dockerfile.nginx
+  build: ../../
+  dockerfile: docker/release/Dockerfile.nginx
   links:
     - app
   ports:
