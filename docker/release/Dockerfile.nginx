@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM nginx:latest
 
 MAINTAINER BEN CHAABEN Wissem <benchaaben.wissem@gmail.com>
 
