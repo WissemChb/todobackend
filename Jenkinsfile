@@ -18,7 +18,7 @@ node{
         sh 'make tag'
 
         stage 'publish todoBackend Image to docker.io'
-        sh 'make publish'
+        sh 'make publishSS'
 
     }finally {
         stage 'clean workspace'

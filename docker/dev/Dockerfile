@@ -20,7 +20,7 @@ VOLUME [ "/wheelhouse" ]
 #OUTPUT :build  cache
 VOLUME [ "/build" ]
 
-#OUTPUT : Test repots are output here
+#OUTPUT : Test reports are output here
 VOLUME [ "/reports" ]
 
 # Add entrypoint test scripts
