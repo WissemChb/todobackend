@@ -8,15 +8,17 @@ node{
         stage 'Build artifact...'
         sh 'make build'
 
+        stage 'login to docker.io'
+        sh 'make login'
+
         stage 'release application... '
         sh 'make release'
 
         stage 'tag application'
         sh 'make tag'
 
-        stage 'login to docker.io'
-        sh 'make login'
-
+        stage 'publish todoBackend Image to docker.io'
+        sh 'make publish'
 
     }finally {
         stage 'clean workspace'
