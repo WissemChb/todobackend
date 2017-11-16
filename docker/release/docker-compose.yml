@@ -19,7 +19,7 @@ app:
     - "--die-on-term"
 
 test:
-  image: wiss013/todobackend-spec
+  image: wiss013/todobackend-specs
   links:
     - nginx
   environment:
