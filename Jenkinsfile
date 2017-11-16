@@ -1,5 +1,5 @@
 node{
-    scm checkout
+    checkout scm 
 
     try {
         stage 'running Unit/Integration Test...'
